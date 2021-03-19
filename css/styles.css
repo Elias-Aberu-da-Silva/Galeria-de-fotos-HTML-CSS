@@ -1,0 +1,88 @@
+/*reset css*/
+*{
+    padding:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color:lightsteelblue;
+}
+/*cabeçalho*/
+h1, p{
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: cornflowerblue;
+}
+/*galeria*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid blue;
+}
+.card-imagens{
+    height: 200px;
+    background-size: cover;
+}
+.card-1 .card-imagens {
+    background-image: url(../img/1.jpg);
+}
+.card-2 .card-imagens {
+    background-image: url(../img/2.jpg);
+}
+.card-3 .card-imagens {
+    background-image: url(../img/3.jpg);
+}
+.card-4 .card-imagens {
+    background-image: url(../img/4.jpg);
+}
+.card-5 .card-imagens {
+    background-image: url(../img/5.jpg);
+}
+.card-6 .card-imagens {
+    background-image: url(../img/6.jpg);
+}
+.card-7 .card-imagens {
+    background-image: url(../img/7.jpg);
+}
+.card-8 .card-imagens {
+    background-image: url(../img/8.jpg);
+}
+.card-9 .card-imagens {
+    background-image: url(../img/9.jpg);
+}
+.card-10 .card-imagens {
+    background-image: url(../img/10.jpg);
+}
+.btn{
+    display: inline-block;
+    background-color: deepskyblue;
+    color: floralwhite;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: 1s;
+    bor
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: white;
+    color: deepskyblue;
+    border-color: deepskyblue;
+}
+.card-description {
+    padding: 10px 10px;
+}
+
+
